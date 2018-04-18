@@ -75,10 +75,19 @@ composer install
 
 これで、WordPressのソースは全部揃う。
 
-## 開発環境を立ち上げる
+## 開発環境を構築する(初回のみ)
 
 [Docker for Mac](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)を入れる
 
 ```
 ./sh/build.sh
+```
+
+## 環境を立ち上げる・落とすコマンド
+```sh
+# 立ち上げる
+docker-compose up -d
+
+# 落とす
+docker-compose stop
 ```
