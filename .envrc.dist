@@ -1,0 +1,13 @@
+MYSQL_ALLOW_EMPTY_PASSWORD=yes
+MYSQL_USER=user
+MYSQL_PASSWORD=password
+MYSQL_DATABASE=infra
+MYSQL_PORT_3306_TCP_ADDR=mysql
+MYSQL_ROOT_PASSWORD=root
+
+WP_HOME=https://infra-workshop.local
+WP_SITEURL=https://infra-workshop.local
+WP_TITLE=Infra-Workshop
+WP_ADMIN_USER=hoj_admin
+WP_ADMIN_PASSWORD=infra_pw
+WP_ADMIN_EMAIL=test@example.com

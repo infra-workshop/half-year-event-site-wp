@@ -1,0 +1,15 @@
+{
+    "name": "infra-workshop/half-year-event-site-wp",
+    "type": "project",
+    "authors": [
+        {
+            "name": "inductor",
+            "email": "kela@inductor.me"
+        }
+    ],
+    "repositories": [
+        { "type": "vcs", "url": "git@github.com:infra-workshop/half-year-event-site-wp.git" },
+        { "type":"composer", "url":"https://wpackagist.org" }
+    ],
+    "require": {}
+}
